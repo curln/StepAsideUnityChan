@@ -18,8 +18,5 @@ public class CoinController : MonoBehaviour
         //‰ñ“]
         this.transform.Rotate(0, 3, 0);
     }
-    void OnBecameInvisible()
-    {
-        this.gameObject.SetActive(false);
-    }
+   
 }
