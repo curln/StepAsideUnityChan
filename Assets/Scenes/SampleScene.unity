@@ -5737,6 +5737,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1318021390113394858, guid: 19ee41b1ace44674386a6ff4ca562ccb, type: 3}
+      propertyPath: unityChan
+      value: 
+      objectReference: {fileID: 178151379}
     - target: {fileID: 2666553443903391456, guid: 19ee41b1ace44674386a6ff4ca562ccb, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -6583,6 +6587,10 @@ PrefabInstance:
       propertyPath: Coin
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -4021493202294587939, guid: 362b88c4cf3975b45a3af0cfb117ebc5, type: 3}
+      propertyPath: unityChan
+      value: 
+      objectReference: {fileID: 178151379}
     - target: {fileID: 3154754176352065703, guid: 362b88c4cf3975b45a3af0cfb117ebc5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6644,6 +6652,10 @@ PrefabInstance:
       propertyPath: Coin
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -7983730571820636730, guid: 81ff6e021cbb5d84ab0e67357ceabc5b, type: 3}
+      propertyPath: unityChan
+      value: 
+      objectReference: {fileID: 178151379}
     - target: {fileID: 1110618537390082084, guid: 81ff6e021cbb5d84ab0e67357ceabc5b, type: 3}
       propertyPath: m_RootOrder
       value: 2
