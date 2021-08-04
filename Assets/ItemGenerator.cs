@@ -68,7 +68,7 @@ public class ItemGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (unitychan.transform.position.z + 50 > i)
+        if (unitychan.transform.position.z + 50 > i&&i<320)
         {
             i += 15;
             a();
