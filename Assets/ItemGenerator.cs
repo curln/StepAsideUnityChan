@@ -21,9 +21,6 @@ public class ItemGenerator : MonoBehaviour
     void Start()
     {
         //スタート地点
-
-        float startPos = unitychan.transform.position.z;
-        float goalPos = unitychan.transform.position.z + 50f;
         for (float i=80; i<130; i += 15)
         {
             //どのアイテムを出すのかをランダムに設定
@@ -71,13 +68,12 @@ public class ItemGenerator : MonoBehaviour
         if (unitychan.transform.position.z + 50 > i&&i<310)
         {
             i += 15;
-            a();
-        }
-        
-       
+            Create();
+        }    
     }
-   public void a()
-    {
+
+   public void Create()
+   {
         int num = Random.Range(1, 11);
         if (num <= 2)
         {
